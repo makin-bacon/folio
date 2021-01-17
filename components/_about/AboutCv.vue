@@ -104,6 +104,7 @@
               opacity: 1,
               ease: 'power2',
             }"
+            class="mb-12"
           >
             Design and artwork of digital and print assets as required for a
             range of mediums using a range of technologies. My initial role was
@@ -182,6 +183,7 @@
               opacity: 1,
               ease: 'power2',
             }"
+            class="mb-12"
           >
             Design and artwork for print and digital mediums for a range of
             clients on the East Coast of Australia. Past clients include Amcor,
@@ -245,6 +247,7 @@
               opacity: 1,
               ease: 'power2',
             }"
+            class="mb-12"
           >
             Design and layout of various items for print and digital mediums.
             Primary duties included branding, layout, multimedia design and
@@ -309,6 +312,7 @@
               opacity: 1,
               ease: 'power2',
             }"
+            class="mb-12"
           >
             Layout and finished art of various items for print and digital
             mediums. Primary duties included design, finished art, illustration,
@@ -371,6 +375,7 @@
               opacity: 1,
               ease: 'power2',
             }"
+            class="mb-12"
           >
             Design of software graphics and interface elements for a range of
             clients. Primary duties included branding of software to particular
@@ -433,6 +438,7 @@
               opacity: 1,
               ease: 'power2',
             }"
+            class="mb-12"
           >
             Finished art and typesetting for a range of packaging clients.
             Primary duties included retouching, illustration, image compositing,
@@ -564,7 +570,7 @@
           </p>
         </div>
         <!-- ./CONTACT BLOCK -->
-        <hr class="border-gray-400" />
+        <hr class="my-12 border-gray-400" />
         <!-- QUALIFICATIONS BLOCK -->
         <div>
           <h2
@@ -596,7 +602,7 @@
           <p class="text-sm">Canberra Grammar School (1997)</p>
         </div>
         <!-- ./QUALIFICATIONS BLOCK -->
-        <hr class="border-gray-400" />
+        <hr class="my-12 border-gray-400" />
         <!-- SOFTWARE BLOCK -->
         <div>
           <h2
@@ -613,7 +619,7 @@
               opacity: 1,
               ease: 'power2',
             }"
-            class="pt-10 mb-3 text-xl"
+            class="mb-3 text-xl"
           >
             Software
           </h2>
@@ -637,11 +643,11 @@
           <p class="mb-0 text-sm">Greensock</p>
           <p class="mb-0 text-sm">Terminal Four</p>
           <p class="mb-0 text-sm">Wordpress</p>
-          <p class="mb-4 text-sm">Vue</p>
+          <p class="mb-0 text-sm">Vue</p>
         </div>
         <!-- ./SOFTWARE BLOCK -->
         <a
-          class="inline-block w-full px-6 py-4 mt-8 mb-12 text-center text-white bg-purple-700 md:w-auto lg:mt-12"
+          class="inline-block w-full px-6 py-4 mt-8 text-center text-white bg-purple-700 lg:mb-12 md:w-auto lg:mt-12"
           href="#"
           >Download PDF</a
         >
