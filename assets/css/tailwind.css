@@ -1,0 +1,364 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* ---------------------------------- */
+/* FONT IMPORTS */
+/* ---------------------------------- */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("Work_Sans-300-1.woff") format("woff");
+}
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("☺"), url("Work_Sans-700-2.woff") format("woff");
+}
+
+/* ---------------------------------- */
+/* BASE STYLES */
+/* ---------------------------------- */
+/* MOBILE */
+h1 {
+  @apply mb-4 text-3xl font-bold leading-none;
+}
+
+h2 {
+  @apply mb-4 text-2xl font-bold leading-none;
+}
+
+h3 {
+  @apply mb-4 text-xl font-bold leading-none;
+}
+
+h4 {
+  @apply mb-4 text-lg font-bold leading-none;
+}
+
+h5 {
+  @apply mb-4 text-base font-bold leading-none;
+}
+
+p {
+  @apply mb-4 text-sm;
+  font-weight: 300;
+}
+
+a {
+  @apply transition-colors duration-100 ease-in-out border-b-0 border-purple-700 border-opacity-25;
+}
+
+a:hover {
+  @apply text-purple-400 duration-200 border-purple-900 border-opacity-100;
+}
+
+.nuxt-link-exact-active {
+  @apply text-purple-700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply pt-2;
+}
+
+/* SCREENS */
+@media screen and (min-width: 1024px) {
+  h1 {
+    @apply mb-8 text-4xl font-bold;
+  }
+
+  h2 {
+    @apply mb-8 text-4xl font-bold;
+  }
+
+  h3 {
+    @apply mb-8 text-3xl font-bold;
+  }
+
+  h4 {
+    @apply mb-8 text-2xl font-bold;
+  }
+
+  h5 {
+    @apply mb-8 text-xl font-bold;
+  }
+  p {
+    @apply mb-8 text-lg;
+  }
+}
+
+/* BIG */
+@media screen and (min-width: 1280px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply pt-6;
+  }
+}
+
+/* ---------------------------------- */
+/* TOOLBAR */
+/* ---------------------------------- */
+.main-tool-bar {
+  @apply fixed top-0 left-0 z-50 flex items-center justify-between w-full h-16 mr-3 text-center transition-all duration-300 bg-white text-black-900;
+}
+
+.nav-links {
+  @apply flex items-center text-sm;
+}
+
+/* HEADER MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .main-tool-bar {
+    @apply px-8;
+  }
+  .nav-links {
+    @apply text-base;
+  }
+}
+
+.container {
+  @apply px-4 mx-auto;
+}
+/* CONTAINER MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .container {
+    @apply px-6;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    @apply px-6;
+  }
+}
+
+/* ---------------------------------- */
+/* PARALLAX HEADER OPTION */
+/* ---------------------------------- */
+
+#hero {
+  @apply -mt-8;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  position: fixed;
+  z-index: -1;
+}
+
+.layer-bg {
+  background-image: url("//placehold.it/1920x1080/434343");
+}
+
+.layer-1 {
+  background-image: url("//placehold.it/800x600/f2f2f2");
+  background-position: left bottom;
+}
+
+.layer-2 {
+  background-image: url("//placehold.it/600x400");
+}
+
+.layer-3 {
+  background-image: url("//placehold.it/600x1300");
+  background-position: right bottom;
+}
+
+.layer-4 {
+  background-image: url("//placehold.it/600x400");
+}
+
+.layer-overlay {
+  background-image: url("//placehold.it/1920x400/bada55");
+}
+
+#hero,
+.layer {
+  height: 600px;
+}
+
+.block-wrapper {
+  @apply flex flex-col w-full px-8 mb-12 overflow-visible;
+}
+
+@media screen and (min-width: 768px) {
+  .block-wrapper {
+    @apply flex-row items-center justify-between px-8 pb-0 mx-auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .block-wrapper {
+    @apply px-12;
+  }
+}
+
+/* ---------------------------------- */
+/* VIDEO HEADER OPTION */
+/* ---------------------------------- */
+@media only screen and (min-width: 768px) {
+  .video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+  }
+
+  .video-wrapper video {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+/* ---------------------------------- */
+/* VENDOR ICONS */
+/* ---------------------------------- */
+.vendor-icon,
+.vendor-icon-col {
+  cursor: pointer;
+}
+
+.vendor-icon > img {
+  filter: grayscale(1);
+  transition: all 0.25s ease-out;
+}
+
+.vendor-icon > img:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+.vendor-icon-col > img {
+  transition: all 0.25s ease-out;
+}
+
+.vendor-icon-col > img:hover {
+  transform: scale(1.2);
+}
+
+/* ---------------------------------- */
+/* IMAGE MEDIA QUERIES */
+/* ---------------------------------- */
+/* HOME */
+.header-image {
+  background-image: url(../img/header-420x270.jpg);
+  background-size: cover;
+}
+.home-about-image {
+  background-image: url(../img/about-480x230-trans.png);
+}
+.home-skills-image {
+  background-image: url(../img/skills-480x230-trans.png);
+  @apply mt-12;
+}
+.home-work-image {
+  background-image: url(../img/work-480x230-trans.png);
+  @apply mt-12;
+}
+
+@media only screen and (min-width: 640px) {
+  .home-about-image {
+    background-image: url(../img/about-960x460-trans.png);
+  }
+  .home-skills-image {
+    background-image: url(../img/skills-960x460-trans.png);
+    @apply mt-0;
+  }
+  .home-work-image {
+    background-image: url(../img/work-960x460-trans.png);
+    @apply mt-0;
+  }
+}
+
+@media only screen and (min-width: 728px) {
+  .header-image {
+    background-image: url(../img/header-1920x1080.jpg);
+  }
+}
+
+/* ABOUT */
+.about-header-image {
+  background-image: url(../img/about-480x230-trans.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (min-width: 640px) {
+  .about-header-image {
+    background-image: url(../img/about-960x460-trans.png);
+  }
+}
+@media only screen and (min-width: 728px) {
+  .about-header-image {
+    background-image: url(../img/about-header.png);
+  }
+}
+
+/* SKILLS */
+.skills-header-image {
+  background-image: url(../img/skills-480x230-trans.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skills-bg-color {
+  background-color: rgba(16, 18, 25, 1);
+}
+
+@media only screen and (min-width: 640px) {
+  .skills-header-image {
+    background-image: url(../img/skills-960x460-trans.png);
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 728px) {
+  .skills-header-image {
+    background-image: url(../img/skills-header-trans.png);
+    background-size: contain;
+  }
+}
+
+/* WORK */
+.work-header-image {
+  background-image: url(../img/work-480x230-trans.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media only screen and (min-width: 640px) {
+  .work-header-image {
+    background-image: url(../img/work-960x460-trans.png);
+  }
+}
+@media only screen and (min-width: 728px) {
+  .work-header-image {
+    background-image: url(../img/work-header.png);
+  }
+}
+/* ---------------------------------- */
+/* ERROR PAGE */
+/* ---------------------------------- */
+/* .__nuxt-error-page {
+  @apply mt-12;
+} */
