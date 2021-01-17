@@ -1,7 +1,7 @@
 <template>
   <header class="bg-gray-100 main-tool-bar">
     <div class="container flex items-center justify-between mt-0 nav-content">
-      <NuxtLink
+      <a
         v-gsap.from="{
           y: 50,
           duration: 2,
@@ -14,8 +14,8 @@
           opacity: 1,
           ease: 'power2',
         }"
+        href="//www.digitaltim.com.au"
         class="w-8 h-8 ml-4"
-        to="/"
       >
         <svg
           id="Layer_1"
@@ -30,7 +30,7 @@
           <rect x="11" y="11" class="logoMiddleBar" width="10" height="21" />
           <rect x="22" y="11" class="logoRightBar" width="10" height="21" />
         </svg>
-      </NuxtLink>
+      </a>
       <ul
         v-gsap.from="{
           y: 50,
