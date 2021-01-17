@@ -56,3 +56,6 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+https://app.netlify.com/start/deploy?repository=https://github.com/makin-bacon/folio
+
