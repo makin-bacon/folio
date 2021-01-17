@@ -25,7 +25,7 @@
         </p>
         <p class="mb-4">
           Over the last 12 months I have worked primarily within the Southern
-          Cross University CMS of choice, Terminal Four. I can create pages to
+          Cross University CMS of choice, Terminalfour. I can create pages to
           brief, correct page errors and am able to train external users on its
           use.
         </p>

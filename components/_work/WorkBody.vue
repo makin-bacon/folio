@@ -34,7 +34,7 @@
             opacity: 1,
             ease: 'power2',
           }"
-          class="lg:mb-24 lg:mt-12"
+          class="lg:mt-12"
         >
           While I've worked in the design industry for nearly 20 years, I've
           spent the last two years at Southern Cross University so have a
@@ -42,6 +42,37 @@
           already be familiar with. Below is some work from my time before
           commencing my contract at SCU as well as a familiar face.
         </p>
+        <p
+          v-gsap.from="{
+            y: 50,
+            duration: 2,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 2,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="lg:mb-24"
+        >
+          In many ways this little website serves as a good summary of the type
+          of work I do. This was built as HTML partials (i.e. little pieces) and
+          the CSS was written using the
+          <a href="//tailwindcss.com">Tailwind CSS</a> framework. This was then
+          ported into the NuxtJS framework so it could behave as a single page
+          application. The Greesock javascript library was used for a little bit
+          of movement between pages and finally it was all uploaded to
+          <a href="//github.com">Github</a> and served as a static site through
+          .
+        </p>
+        <p>
+          All code was all written from scratch on a mac and the headings were
+          rendered in Blender on a Windows 10 machine.
+        </p>
+
         <h3
           v-gsap.from="{
             x: -50,

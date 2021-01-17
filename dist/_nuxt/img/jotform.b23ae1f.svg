@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E5E5E5;}
+	.st1{clip-path:url(#SVGID_2_);fill:#D9D9D9;}
+	.st2{clip-path:url(#SVGID_2_);fill:#F38632;}
+	.st3{clip-path:url(#SVGID_2_);fill:#4E4E4E;}
+	.st4{clip-path:url(#SVGID_2_);fill:url(#SVGID_3_);}
+	.st5{clip-path:url(#SVGID_2_);fill:#F6A259;}
+	.st6{clip-path:url(#SVGID_2_);fill:#BCBCBC;}
+	.st7{clip-path:url(#SVGID_2_);fill:#C8702D;}
+	.st8{clip-path:url(#SVGID_2_);fill:#444444;}
+	.st9{clip-path:url(#SVGID_2_);fill:url(#SVGID_4_);}
+	.st10{clip-path:url(#SVGID_2_);fill:#E9E9E9;}
+	.st11{clip-path:url(#SVGID_2_);fill:#686868;}
+	.st12{clip-path:url(#SVGID_2_);fill:url(#SVGID_5_);}
+	.st13{clip-path:url(#SVGID_2_);fill:#F7B072;}
+</style>
+<g>
+	<path class="st0" d="M128.7,0C128.7,0,128.7,0,128.7,0C128.7,0,128.7,0,128.7,0 M128,0C128,0,128.1,0,128,0C128.1,0,128,0,128,0
+		 M72,209l87.1-70.8l23.4-126.1c30.6,14.4,54.3,40.4,65.9,72.2l-15.6,64.7L72,209 M128,0C57.3,0,0,57.3,0,128s57.3,128,128,128
+		s128-57.3,128-128C256,57.6,199.1,0.4,128.8,0c6.4,0,12.7,0.6,19,1.5l0,0c7.7,1.2,15.3,3.1,22.7,5.7l0,0c0,0,0,0,0,0l-0.9,3.2
+		l-16.8,59.7L96,169.4L72,209l0.1-0.2L72,209l0.1-0.9l-0.1,0.2L82,47.1h0L93.5,4.7l0,0C104.7,1.6,116.3,0,128,0"/>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M128,0c70.7,0,128,57.3,128,128s-57.3,128-128,128S0,198.7,0,128S57.3,0,128,0"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st1" d="M182.4,12.2l-23.4,126.1L72,209l160.8-59.9l15.6-64.7C236.8,52.6,213.1,26.6,182.4,12.2"/>
+		<path class="st2" d="M128,0c-11.7,0-23.3,1.6-34.5,4.7L82,47.1l23.9,3.4l24.6,8.5l22.2,11.1l17.7-62.8C156.8,2.5,142.5,0,128,0"/>
+		<polyline class="st3" points="96,169.3 72,209 74.9,162.5 81.9,162.7 90.5,165.1 96,169.3 		"/>
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0" y1="256.0223" x2="1" y2="256.0223" gradientTransform="matrix(72.2007 8.7516 8.7516 -72.2007 -2167.3044 18589.6719)">
+			<stop  offset="0" style="stop-color:#F1CEBA"/>
+			<stop  offset="1" style="stop-color:#B8846F"/>
+		</linearGradient>
+		<polyline class="st4" points="105.9,50.5 81.8,162.7 81.9,162.7 89.2,164.8 130.5,58.9 105.9,50.5 		"/>
+		<path class="st5" d="M93.5,4.7L82,47.1l23.9,3.4l14.6-50.2C111.3,0.8,102.3,2.3,93.5,4.7"/>
+		<path class="st6" d="M169.6,10.4l-16.8,59.6l0,0L96,169.3l-5.5-4.2l-1.2-0.3l1.2,0.3l5.5,4.2l-23.9,39.5L72,209l24-39.6l56.8-99.3
+			L169.6,10.4 M147.7,1.5L147.7,1.5c7.7,1.2,15.3,3.1,22.7,5.7l0,0C163.1,4.6,155.5,2.7,147.7,1.5"/>
+		<path class="st7" d="M147.7,1.5l-17.2,57.4l22.2,11.1l16.8-59.6l0.9-3.2C163.1,4.6,155.5,2.7,147.7,1.5"/>
+		<polyline class="st8" points="89.2,164.8 72.1,208.8 96,169.3 90.5,165.1 89.2,164.8 		"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="0" y1="255.9593" x2="1" y2="255.9593" gradientTransform="matrix(72.2007 8.7516 8.7516 -72.2007 -2167.3044 18589.6719)">
+			<stop  offset="0" style="stop-color:#C6AA9A"/>
+			<stop  offset="1" style="stop-color:#986F5E"/>
+		</linearGradient>
+		<polyline class="st9" points="130.5,58.9 89.2,164.8 90.5,165.1 96,169.3 152.7,70.1 152.7,70.1 130.5,58.9 		"/>
+		<polyline class="st10" points="82,47.1 72,208.3 72,208.1 74.9,162.5 81.8,162.7 74.9,162.5 82,47.1 		"/>
+		<polyline class="st11" points="74.9,162.5 72,208.1 81.8,162.7 74.9,162.5 		"/>
+		
+			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="0" y1="256.0295" x2="1" y2="256.0295" gradientTransform="matrix(72.2007 8.7516 8.7516 -72.2007 -2167.3044 18589.6719)">
+			<stop  offset="0" style="stop-color:#F3D5C4"/>
+			<stop  offset="1" style="stop-color:#C39684"/>
+		</linearGradient>
+		<polyline class="st12" points="82,47.1 82,47.1 74.9,162.5 81.8,162.7 105.9,50.5 105.9,50.5 105.9,50.5 82,47.1 		"/>
+		<polyline class="st13" points="82,47.1 82,47.1 82,47.1 105.9,50.5 105.9,50.5 82,47.1 		"/>
+	</g>
+</g>
+</svg>
