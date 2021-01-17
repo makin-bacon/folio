@@ -9,7 +9,7 @@
 
 module.exports = {
   theme: {
-    // compatible with @nuxtjs/color-mode
+    //  compatible with @nuxtjs/color-mode
     extend: {
       colors: {
         transparent: "transparent",
