@@ -1,6 +1,5 @@
-# Setting up Dark Mode for Nuxt and Storybook via Tailwind CSS
+# SCU Folio Site
 
-See full article for more information: <https://camillovisini.com/article/nuxt-tailwind-storybook-dark-mode/>
 
 ## Makefile
 
@@ -54,8 +53,14 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+## Next steps
+```
+1.  Create git repo and push to master branch
+2.  Setup Netlify account and check the docs for publish instructions.
+3.  Profit?
 
+
+```
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-https://app.netlify.com/start/deploy?repository=https://github.com/makin-bacon/folio
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4533c12-0220-43ec-9d7d-cbf60194dcc0/deploy-status)](https://app.netlify.com/sites/elegant-shaw-4ab1d3/deploys)
