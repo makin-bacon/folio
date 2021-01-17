@@ -646,11 +646,6 @@
           <p class="mb-0 text-sm">Vue</p>
         </div>
         <!-- ./SOFTWARE BLOCK -->
-        <a
-          class="inline-block w-full px-6 py-4 mt-8 text-center text-white bg-purple-700 lg:mb-12 md:w-auto lg:mt-12"
-          href="#"
-          >Download PDF</a
-        >
       </div>
     </div>
   </div>
