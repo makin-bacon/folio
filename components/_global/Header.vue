@@ -1,7 +1,22 @@
 <template>
   <header class="bg-gray-100 main-tool-bar">
     <div class="container flex items-center justify-between mt-0 nav-content">
-      <NuxtLink class="w-8 h-8 ml-4" to="/">
+      <NuxtLink
+        v-gsap.from="{
+          y: 50,
+          duration: 2,
+          opacity: 0,
+          ease: 'power2',
+        }"
+        v-gsap.to="{
+          x: 0,
+          duration: 2,
+          opacity: 1,
+          ease: 'power2',
+        }"
+        class="w-8 h-8 ml-4"
+        to="/"
+      >
         <svg
           id="Layer_1"
           version="1.1"
@@ -16,7 +31,21 @@
           <rect x="22" y="11" class="logoRightBar" width="10" height="21" />
         </svg>
       </NuxtLink>
-      <ul class="nav-links">
+      <ul
+        v-gsap.from="{
+          y: 50,
+          duration: 2,
+          opacity: 0,
+          ease: 'power2',
+        }"
+        v-gsap.to="{
+          x: 0,
+          duration: 2,
+          opacity: 1,
+          ease: 'power2',
+        }"
+        class="nav-links"
+      >
         <li class="block mr-6 lg:mr-12"><NuxtLink to="/">Home</NuxtLink></li>
         <li class="block mr-6 lg:mr-12">
           <NuxtLink to="/about">About</NuxtLink>
