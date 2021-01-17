@@ -84,6 +84,9 @@ export default {
     },
   },
 
+  // Add static target
+  target: "static",
+
   // Add global page transition
   pageTransition: {
     name: "page",
