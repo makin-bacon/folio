@@ -1,11 +1,13 @@
 <template>
   <div
     v-gsap.from="{
+      y: 20,
       duration: 3,
       opacity: 0,
       ease: 'power2',
     }"
     v-gsap.to="{
+      y: 0,
       duration: 3,
       opacity: 1,
       ease: 'power2',

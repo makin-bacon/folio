@@ -4,7 +4,21 @@
       <!-- <h2 class="text-2xl lg:text-3xl lg:mt-12 w-12/12">
         Web, motion and print
       </h2> -->
-      <p>
+      <p
+        v-gsap.from="{
+          y: 50,
+          duration: 3,
+          opacity: 0,
+          ease: 'power2',
+          stagger: 0.5,
+        }"
+        v-gsap.to="{
+          y: 0,
+          duration: 3,
+          opacity: 1,
+          ease: 'power2',
+        }"
+      >
         For the last 20 years I've worked as a freelancer, contractor and a
         full-time staff member and produced work for large companies, agencies
         down to small businesses. Over this time I've developed a strong working
@@ -13,23 +27,100 @@
       </p>
     </div>
     <!-- SKILL CATEGORY -->
-    <div class="flex flex-col lg:flex-row">
+    <div
+      v-gsap.from="{
+        x: 50,
+        duration: 3,
+        opacity: 0,
+        ease: 'power2',
+        stagger: 0.5,
+      }"
+      v-gsap.to="{
+        x: 0,
+        duration: 3,
+        opacity: 1,
+        ease: 'power2',
+      }"
+      class="flex flex-col lg:flex-row"
+    >
       <div class="w-100 lg:w-6/12">
-        <h3 class="mb-4 text-2xl">Web</h3>
-        <p class="mb-4">
+        <h3
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mb-4 text-2xl"
+        >
+          Web
+        </h3>
+        <p
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mb-4"
+        >
           A primary focus of my work over the last decade has been in the
           digital space. I build websites, deploy CMS installations (largely
           Wordpress) as well as Single Page Application (such as this website)
           and application interfaces. I use a combination of technologies and
           have firm grasp on front to backend interactions.
         </p>
-        <p class="mb-4">
+        <p
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mb-4"
+        >
           Over the last 12 months I have worked primarily within the Southern
           Cross University CMS of choice, Terminalfour. I can create pages to
           brief, correct page errors and am able to train external users on its
           use.
         </p>
-        <p class="mb-4">
+        <p
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mb-4"
+        >
           A large share of digital work requires a strong grasp on a number of
           online services, I have extensive experience working within the Google
           Analytics console and can generate reports on web performance and ad
@@ -39,9 +130,56 @@
       </div>
       <div class="flex flex-col mb-12 lg:mb-48 w-100 lg:w-4/12 lg:ml-auto">
         <!-- WEB LOGOS -->
-        <h4 class="text-xl font-normal">Web</h4>
-        <div class="flex flex-col w-full mb-4">
-          <div class="flex">
+        <h4
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="text-xl font-normal"
+        >
+          Web
+        </h4>
+        <div
+          v-gsap.from="{
+            y: -50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="flex flex-col w-full mb-4"
+        >
+          <div
+            v-gsap.from="{
+              y: 50,
+              duration: 3,
+              opacity: 0,
+              ease: 'power2',
+              stagger: 0.5,
+            }"
+            v-gsap.to="{
+              y: 0,
+              duration: 3,
+              opacity: 1,
+              ease: 'power2',
+            }"
+            class="flex"
+          >
             <a
               href="//html.spec.whatwg.org/"
               title="HTML5"
@@ -187,8 +325,40 @@
           </div>
         </div>
         <!-- MARKETING LOGOS -->
-        <h4 class="mt-4 text-xl font-normal">Marketing</h4>
-        <div class="flex flex-col w-full mb-8">
+        <h4
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mt-4 text-xl font-normal"
+        >
+          Marketing
+        </h4>
+        <div
+          v-gsap.from="{
+            y: -50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="flex flex-col w-full mb-8"
+        >
           <div class="flex flex-row">
             <a
               href="//analytics.google.com/"
@@ -268,22 +438,115 @@
     <!-- SKILL CATEGORY -->
     <div class="flex flex-col mb-8 lg:flex-row">
       <div class="w-100 lg:w-6/12">
-        <h3 class="mt-8 mb-4 text-2xl">Motion</h3>
-        <p class="mb-4">
+        <h3
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mt-8 mb-4 text-2xl"
+        >
+          Motion
+        </h3>
+        <p
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mb-4"
+        >
           Over my career it has been essential to be able to provide high
           quality motion assets. Whether it is creating online video ads for
           social media or rolling out campaign TVCs, I draw on a range of tools
           to produce outputs to spec as required.
         </p>
-        <p>
+        <p
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+        >
           I have a particular interest in creating special effects in Adobe
           After Effects and creating 3D images (such as the headings on this
           website) using Blender.
         </p>
       </div>
-      <div class="flex flex-col mb-12 w-100 lg:w-4/12 lg:ml-auto lg:mb-48">
-        <h4 class="mt-8 text-xl font-normal">Motion technologies</h4>
-        <div class="flex flex-col w-12/12">
+      <div
+        v-gsap.from="{
+          x: 50,
+          duration: 3,
+          opacity: 0,
+          ease: 'power2',
+          stagger: 0.5,
+        }"
+        v-gsap.to="{
+          x: 0,
+          duration: 3,
+          opacity: 1,
+          ease: 'power2',
+        }"
+        class="flex flex-col mb-12 w-100 lg:w-4/12 lg:ml-auto lg:mb-48"
+      >
+        <h4
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mt-8 text-xl font-normal"
+        >
+          Motion technologies
+        </h4>
+        <div
+          v-gsap.from="{
+            y: -50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="flex flex-col w-12/12"
+        >
           <div class="flex">
             <a
               href="//www.adobe.com/au/products/aftereffects.html"
@@ -333,8 +596,40 @@
     <!-- SKILL CATEGORY -->
     <div class="flex flex-col lg:flex-row">
       <div class="w-100 lg:w-6/12">
-        <h3 class="mb-4 text-2xl">Print and Media</h3>
-        <p class="mb-4">
+        <h3
+          v-gsap.from="{
+            y: -50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mb-4 text-2xl"
+        >
+          Print and Media
+        </h3>
+        <p
+          v-gsap.from="{
+            x: -100,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            x: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="mb-4"
+        >
           The earlier part of my career was largely focused on finished art and
           production-based roles which gave me a very strong grounding in print
           design, application and finished art. A large part of my earlier roles
@@ -347,8 +642,40 @@
           produced countless press and outdoor advertisements.
         </p>
       </div>
-      <div class="flex flex-col mb-12 lg:mb-48 w-100 lg:w-4/12 lg:ml-auto">
-        <h4 class="text-xl font-normal">Print and media technologies</h4>
+      <div
+        v-gsap.from="{
+          y: -50,
+          duration: 3,
+          opacity: 0,
+          ease: 'power2',
+          stagger: 0.5,
+        }"
+        v-gsap.to="{
+          y: 0,
+          duration: 3,
+          opacity: 1,
+          ease: 'power2',
+        }"
+        class="flex flex-col mb-12 lg:mb-48 w-100 lg:w-4/12 lg:ml-auto"
+      >
+        <h4
+          v-gsap.from="{
+            y: 50,
+            duration: 3,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 3,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="text-xl font-normal"
+        >
+          Print and media technologies
+        </h4>
         <div class="flex flex-col w-12/12">
           <div class="flex">
             <a

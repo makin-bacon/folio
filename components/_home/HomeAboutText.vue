@@ -19,12 +19,37 @@
       >
         About me
       </h3> -->
-      <p class="mb-12">
+      <p
+        v-gsap.from="{
+          y: 50,
+          duration: 2,
+          opacity: 0,
+          ease: 'power2',
+        }"
+        v-gsap.to="{
+          duration: 2,
+          opacity: 1,
+          ease: 'power2',
+        }"
+        class="mb-12"
+      >
         While you already know me we do have a criteria to meet here so I've
         made a section covering my vital statistics and work history. You can
         also download a PDF as a keepsake.
       </p>
       <NuxtLink
+        v-gsap.from="{
+          x: 50,
+          duration: 2,
+          opacity: 0,
+          ease: 'power2',
+        }"
+        v-gsap.to="{
+          x: 0,
+          duration: 2,
+          opacity: 1,
+          ease: 'power2',
+        }"
         class="inline-block px-6 py-4 text-white bg-purple-700"
         to="/about"
         >Take me there</NuxtLink

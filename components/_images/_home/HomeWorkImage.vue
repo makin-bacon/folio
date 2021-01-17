@@ -1,6 +1,7 @@
 <template>
   <div
     v-gsap.from="{
+      y: 20,
       duration: 3,
       opacity: 0,
       ease: 'power2',
