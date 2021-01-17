@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white main-tool-bar">
+  <header class="bg-gray-100 main-tool-bar">
     <div class="container flex items-center justify-between mt-0 nav-content">
       <a class="w-8 h-8 ml-4" href="#">
         <svg

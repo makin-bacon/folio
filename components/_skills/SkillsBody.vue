@@ -29,7 +29,7 @@
           brief, correct page errors and am able to train external users on its
           use.
         </p>
-        <p>
+        <p class="mb-4">
           A large share of digital work requires a strong grasp on a number of
           online services, I have extensive experience working within the Google
           Analytics console and can generate reports on web performance and ad
@@ -39,7 +39,7 @@
       </div>
       <div class="flex flex-col mb-12 lg:mb-48 w-100 lg:w-4/12 lg:ml-auto">
         <!-- WEB LOGOS -->
-        <h4 class="mt-4 text-xl font-normal">Web</h4>
+        <h4 class="text-xl font-normal">Web</h4>
         <div class="flex flex-col w-full mb-4">
           <div class="flex">
             <a
@@ -268,7 +268,7 @@
     <!-- SKILL CATEGORY -->
     <div class="flex flex-col mb-8 lg:flex-row">
       <div class="w-100 lg:w-6/12">
-        <h3 class="mb-4 text-2xl">Motion</h3>
+        <h3 class="mt-8 mb-4 text-2xl">Motion</h3>
         <p class="mb-4">
           Over my career it has been essential to be able to provide high
           quality motion assets. Whether it is creating online video ads for
@@ -348,7 +348,7 @@
         </p>
       </div>
       <div class="flex flex-col mb-12 lg:mb-48 w-100 lg:w-4/12 lg:ml-auto">
-        <h4 class="mt-8 text-xl font-normal">Print and media technologies</h4>
+        <h4 class="text-xl font-normal">Print and media technologies</h4>
         <div class="flex flex-col w-12/12">
           <div class="flex">
             <a

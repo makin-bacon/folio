@@ -35,7 +35,7 @@
               opacity: 1,
               ease: 'power2',
             }"
-            class="text-white"
+            class="mb-12 text-white"
           >
             Thank you for your time in looking through this presentation site to
             show my suitability for the role of Digital Producer and Designer at

@@ -108,7 +108,7 @@ h5 {
 /* TOOLBAR */
 /* ---------------------------------- */
 .main-tool-bar {
-  @apply fixed top-0 left-0 z-50 flex items-center justify-between w-full h-16 mr-3 text-center transition-all duration-300 bg-white text-black-900;
+  @apply fixed top-0 left-0 z-50 flex items-center justify-between w-full h-16 mr-3 text-center transition-all duration-300 text-black-900;
 }
 
 .nav-links {

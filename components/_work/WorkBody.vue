@@ -45,18 +45,17 @@
         <p
           v-gsap.from="{
             y: 50,
-            duration: 2,
+            duration: 3,
             opacity: 0,
             ease: 'power2',
             stagger: 0.5,
           }"
           v-gsap.to="{
             y: 0,
-            duration: 2,
+            duration: 3,
             opacity: 1,
             ease: 'power2',
           }"
-          class="lg:mb-24"
         >
           In many ways this little website serves as a good summary of the type
           of work I do. This was built as HTML partials (i.e. little pieces) and
@@ -97,9 +96,31 @@
             >Netlify</a
           >.
         </p>
-        <p>
+        <p
+          v-gsap.from="{
+            y: 50,
+            duration: 4,
+            opacity: 0,
+            ease: 'power2',
+            stagger: 0.5,
+          }"
+          v-gsap.to="{
+            y: 0,
+            duration: 4,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          class="lg:mb-24"
+        >
           All code was all written from scratch on a mac and the headings were
-          rendered in Blender on a Windows 10 machine.
+          rendered in
+          <a
+            class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
+            href="//blender.org"
+            target="_blank"
+            >Blender</a
+          >
+          on a Windows 10 machine.
         </p>
 
         <h3
