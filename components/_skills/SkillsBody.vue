@@ -48,7 +48,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/html5.svg"
                 alt="HTML5 logo"
             /></a>
@@ -58,7 +58,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/css3.svg"
                 alt="CSS3 logo"
             /></a>
@@ -68,7 +68,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/javascript.svg"
                 alt="Javascript logo"
             /></a>
@@ -78,7 +78,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/gsap-greensock.svg"
                 alt="Greensock logo"
             /></a>
@@ -88,7 +88,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/vuejs.svg"
                 alt="VueJS"
             /></a>
@@ -98,7 +98,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/nuxtJS-square.svg"
                 alt="NuxtJS"
             /></a>
@@ -108,7 +108,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10"
+                class="w-8 h-8"
                 src="../../assets/img/vendor/terminal4.svg"
                 alt="Terminalfour logo"
             /></a>
@@ -120,7 +120,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/wordpress.svg"
                 alt="Wordpress logo"
             /></a>
@@ -130,7 +130,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/postcss.svg"
                 alt="postCSS logo"
             /></a>
@@ -140,7 +140,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/bootstrap.svg"
                 alt="Bootstrap logo"
             /></a>
@@ -150,7 +150,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/tailwind-css-logo.svg"
                 alt="TailwindCSS logo"
             /></a>
@@ -160,7 +160,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/npmjs.svg"
                 alt="Node Package Manager logo"
             /></a>
@@ -170,7 +170,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/yarnJS.svg"
                 alt="Yarn Package Manager"
             /></a>
@@ -180,7 +180,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10"
+                class="w-8 h-8"
                 src="../../assets/img/vendor/adobe-xd.svg"
                 alt="Adobe XD logo"
             /></a>
@@ -196,7 +196,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/google-analytics.svg"
                 alt="Google Analytics logo"
             /></a>
@@ -206,7 +206,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/google-ads.svg"
                 alt="Google Ads logo"
             /></a>
@@ -216,7 +216,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/siteimprove.svg"
                 alt="Siteimprove logo"
             /></a>
@@ -226,7 +226,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/linkedin.svg"
                 alt="LinkedIn logo"
             /></a>
@@ -236,7 +236,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/instagram.svg"
                 alt="Instagram logo"
             /></a>
@@ -246,7 +246,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/facebook.svg"
                 alt="Facebook logo"
             /></a>
@@ -256,7 +256,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10"
+                class="w-8 h-8"
                 src="../../assets/img/vendor/jotform.svg"
                 alt="Jotform logo"
             /></a>
@@ -291,7 +291,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/adobe-after-effects.svg"
                 alt="Adobe After Effects logo"
             /></a>
@@ -301,7 +301,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/adobe-premiere.svg"
                 alt="Adobe Premiere logo"
             /></a>
@@ -311,7 +311,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/adobe-media-encoder.svg"
                 alt="Adobe Media Encoder logo"
             /></a>
@@ -321,7 +321,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10"
+                class="w-8 h-8"
                 src="../../assets/img/vendor/blender.svg"
                 alt="Blender logo"
             /></a>
@@ -357,7 +357,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/adobe-illustrator.svg"
                 alt="Adobe Illustrator logo"
             /></a>
@@ -367,7 +367,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/adobe-photoshop.svg"
                 alt="Adobe Illustrator logo"
             /></a>
@@ -377,7 +377,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/adobe-indesign.svg"
                 alt="Adobe InDesign logo"
             /></a>
@@ -387,7 +387,7 @@
               target="_blank"
               class="vendor-icon-col"
               ><img
-                class="w-10 h-10 mr-5"
+                class="w-8 h-8 mr-5"
                 src="../../assets/img/vendor/adobe-acrobat.svg"
                 alt="Adobe Acrobat logo"
             /></a>
