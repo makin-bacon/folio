@@ -89,7 +89,7 @@
               class="vendor-icon-col"
               ><img
                 class="w-10 h-10 mr-5"
-                src="../../assets/img/vendor/vueJS.svg"
+                src="../../assets/img/vendor/vuejs.svg"
                 alt="VueJS"
             /></a>
             <a
