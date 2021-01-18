@@ -40,7 +40,7 @@
             Thank you for your time in looking through this presentation site to
             show my suitability for the role of Digital Producer and Designer at
             Southern Cross University. I've enjoyed the last couple of years
-            working with the team in the Engagement portfolio and am keen for
+            working with the team in the Office of Engagement and am keen for
             that to continue.
           </p>
         </div>
