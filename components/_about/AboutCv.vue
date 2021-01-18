@@ -107,12 +107,12 @@
             class="mb-12"
           >
             Design and artwork of digital and print assets as required for a
-            range of mediums using a range of technologies. My initial role was
-            to service print and digital graphic requests within MMC and the
-            wider University, however the last 12 months have been spent as
-            Design Lead on the Web Upgrade Project. Outside of these duties I'm
-            involved in regular content creation and maintenance in the T4
-            environment.
+            range of mediums using a range of technologies. My initial contract
+            role was to service print and digital graphic requests within The
+            Office of Engagement and the wider University, however the last 12
+            months have been spent as Design Lead on the Web Upgrade Project.
+            Outside of these duties I’m involved in regular content creation and
+            maintenance in the T4 environment.
           </p>
         </div>
         <!-- END JOB BLOCK -->
