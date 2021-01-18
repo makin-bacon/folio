@@ -39,8 +39,7 @@
           While I've worked in the design industry for nearly 20 years, I've
           spent the last two years at Southern Cross University so have a
           limited selection of <em>recent</em> work to show that you wouldn't
-          already be familiar with. Below is some work from my time before
-          commencing my contract at SCU as well as a familiar face.
+          already be familiar with.
         </p>
         <p
           v-gsap.from="{
@@ -112,8 +111,7 @@
           }"
           class="lg:mb-24"
         >
-          All code was all written from scratch on a mac and the headings were
-          rendered in
+          All code was written on a mac and the headings were rendered in
           <a
             class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
             href="//blender.org"

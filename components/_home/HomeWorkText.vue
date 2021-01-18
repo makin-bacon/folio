@@ -17,11 +17,11 @@
         }"
         class="mb-12"
       >
-        Here is a small collection of work across a range of mediums. As I've
-        worked in a similar role at SCU for some time I'm hopeful that I've
-        demonstrated enough ability in the skills you need in the role of
-        Digital Producer and Designer so I thought it might be a nice idea to
-        make you a website.
+        Here is a small collection of work across a range of mediums. Although
+        you would already be familiar with much of the design, web and motion
+        work I've done in the last two years as a team member in the Office of
+        Engagement, I've included a small selection of work drawn from the
+        previous five years of effort. More work available on request.
       </p>
       <NuxtLink
         v-gsap.from="{
