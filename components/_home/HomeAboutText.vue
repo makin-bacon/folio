@@ -33,9 +33,9 @@
         }"
         class="mb-12"
       >
-        While you already know me we do have a criteria to meet here so I've
-        made a section covering my vital statistics and work history. You can
-        also find a list of tools I use daily.
+        While you already know me we do have a criteria to meet so I've made a
+        section covering my vital statistics and work history. You can also find
+        a list of tools I use daily.
       </p>
       <NuxtLink
         v-gsap.from="{

@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1611007903",layout:"default",error:null,serverRendered:a,routePath:"\u002Fskills",config:{},colorMode:{preference:b,value:b,unknown:a,forced:false}}}(true,"light"));
