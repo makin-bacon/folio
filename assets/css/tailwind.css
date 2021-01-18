@@ -356,6 +356,14 @@ h5 {
     background-image: url(../img/work-header.png);
   }
 }
+
+#homeHeaderLogo > .logoTopBar,
+#homeHeaderLogo > .logoLeftBar,
+#homeHeaderLogo > .logoMiddleBar,
+#homeHeaderLogo > .logoRightBar {
+  fill: #805ad5;
+}
+
 /* ---------------------------------- */
 /* ERROR PAGE */
 /* ---------------------------------- */

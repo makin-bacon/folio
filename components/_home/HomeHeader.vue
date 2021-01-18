@@ -35,7 +35,7 @@
               opacity: 1,
               ease: 'power2',
             }"
-            class="mb-12 text-white"
+            class="mb-8 text-white"
           >
             Thank you for your time in looking through this presentation site to
             show my suitability for the role of Digital Producer and Designer at
@@ -44,6 +44,35 @@
             that to continue.
           </p>
         </div>
+      </div>
+      <div class="w-16 h-16 px-4 ml-auto md:w-3/12">
+        <svg
+          id="homeHeaderLogo"
+          v-gsap.from="{
+            y: 50,
+            x: -50,
+            duration: 4,
+            opacity: 0,
+            ease: 'power2',
+          }"
+          v-gsap.to="{
+            y: 0,
+            x: 0,
+            duration: 4,
+            opacity: 1,
+            ease: 'power2',
+          }"
+          version="1.1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 32 32"
+          style="enable-background: new 0 0 32 32"
+        >
+          <rect class="logoTopBar" width="32" height="10" />
+          <rect y="11" class="logoLeftBar" width="10" height="21" />
+          <rect x="11" y="11" class="logoMiddleBar" width="10" height="21" />
+          <rect x="22" y="11" class="logoRightBar" width="10" height="21" />
+        </svg>
       </div>
     </div>
   </div>
