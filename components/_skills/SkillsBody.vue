@@ -79,8 +79,8 @@
           class="mb-4"
         >
           A primary focus of my work over the last decade has been in the
-          digital space. I build websites, deploy CMS installations (largely
-          Wordpress) as well as Single Page Application (such as this website)
+          digital space. I build websites, deploy CMS installations, largely
+          Wordpress, as well as Single Page Applications (such as this website)
           and application interfaces. I use a combination of technologies and
           have firm grasp on front to backend interactions.
         </p>
@@ -122,8 +122,8 @@
           class="mb-4"
         >
           A large share of digital work requires a strong grasp on a number of
-          online services, I have extensive experience working within the Google
-          Analytics console and can generate reports on web performance and ad
+          online services, I have experience working within the Google Analytics
+          console and can generate reports on web performance and ad
           effectiveness. I am also very experienced in producing marketing
           materials for social media and EDM use.
         </p>
