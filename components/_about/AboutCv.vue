@@ -630,7 +630,7 @@
             <p class="mb-0 text-sm">Photoshop</p>
             <p class="mb-0 text-sm">Acrobat</p>
             <p class="mb-0 text-sm">XD</p>
-            <p class="mb-0 text-sm">After Effect</p>
+            <p class="mb-0 text-sm">After Effects</p>
             <p class="mb-4 text-sm">Premiere</p>
           </div>
           <h4 class="mb-3 text-base">Microsoft Office Suite</h4>
@@ -641,7 +641,7 @@
           <p class="mb-0 text-sm">PostCSS</p>
           <p class="mb-0 text-sm">Javascript</p>
           <p class="mb-0 text-sm">Greensock</p>
-          <p class="mb-0 text-sm">Terminal Four</p>
+          <p class="mb-0 text-sm">Terminalfour</p>
           <p class="mb-0 text-sm">Wordpress</p>
           <p class="mb-0 text-sm">Vue</p>
         </div>
