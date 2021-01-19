@@ -35,9 +35,7 @@ export default {
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/tailwindcss",
-    // https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode/
-    "@nuxtjs/color-mode",
-    // Light and Dark Mode switcher
+    // https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode/ (if needed)
     "@nuxtjs/color-mode",
     // Google Fonts
     "@nuxtjs/google-fonts",
