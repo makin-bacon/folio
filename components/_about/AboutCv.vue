@@ -555,7 +555,7 @@
           <p class="mb-1 text-sm">
             <span class="font-bold">Mobile</span>
             <a
-              class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
+              class="text-purple-700 transition-all duration-300 hover:text-purple-900"
               href="tel:61429174298"
               >0429 174 298</a
             >
@@ -563,7 +563,7 @@
           <p class="mb-0 text-sm">
             <span class="font-bold">Email</span>
             <a
-              class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
+              class="text-purple-700 transition-all duration-300 hover:text-purple-900"
               href="mailto:tim.millhouse@gmail.com"
               >tim.millhouse@gmail.com</a
             >
@@ -648,7 +648,7 @@
         <!-- ./SOFTWARE BLOCK -->
         <a
           href="./TMillhouse_CV_2021.pdf"
-          class="inline-block mt-12 px-6 py-4 text-white bg-purple-700"
+          class="inline-block px-6 py-4 mt-12 text-white bg-purple-700"
           download=""
           >Download a PDF</a
         >

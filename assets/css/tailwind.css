@@ -48,11 +48,19 @@ p {
 }
 
 a {
-  @apply transition-colors duration-100 ease-in-out border-b-0 border-purple-700 border-opacity-25;
+  @apply text-purple-600 transition-colors duration-100 ease-in-out;
 }
 
 a:hover {
-  @apply text-purple-400 duration-200 border-purple-900 border-opacity-100;
+  @apply text-purple-900 duration-200;
+}
+
+p > a {
+  @apply border-purple-600;
+}
+
+.nuxt-link-active {
+  @apply text-gray-900;
 }
 
 .nuxt-link-exact-active {
