@@ -15,7 +15,7 @@
               target="_blank"
               class="vendor-icon"
               ><img
-                class="w-8 h-8 mr-3 lg:w-12 lg:h-12"
+                class="w-8 h-8 mr-3"
                 src="../../assets/img/vendor/html5.svg"
                 alt="HTML5 logo"
             /></a>
@@ -25,7 +25,7 @@
               target="_blank"
               class="vendor-icon"
               ><img
-                class="w-8 h-8 mr-3 lg:w-12 lg:h-12"
+                class="w-8 h-8 mr-3"
                 src="../../assets/img/vendor/css3.svg"
                 alt="CSS3 logo"
             /></a>
@@ -35,7 +35,7 @@
               target="_blank"
               class="vendor-icon"
               ><img
-                class="w-6 h-6 mr-3 lg:w-12 lg:h-12"
+                class="w-6 h-6 mr-3"
                 src="../../assets/img/vendor/nuxtJS-square.svg"
                 alt="NuxtJS logo"
             /></a>
@@ -45,7 +45,7 @@
               target="_blank"
               class="vendor-icon"
               ><img
-                class="w-8 h-8 mr-3 lg:w-12 lg:h-12"
+                class="w-8 h-8 mr-3"
                 src="../../assets/img/vendor/postcss.svg"
                 alt="postCSS logo"
             /></a>
@@ -55,7 +55,7 @@
               target="_blank"
               class="vendor-icon"
               ><img
-                class="w-8 h-8 mr-3 lg:w-12 lg:h-12"
+                class="w-8 h-8 mr-3"
                 src="../../assets/img/vendor/tailwind-css-logo.svg"
                 alt="TailwindCSS logo"
             /></a>
@@ -65,7 +65,7 @@
               target="_blank"
               class="vendor-icon"
               ><img
-                class="w-8 h-8 lg:w-12 lg:h-12"
+                class="w-8 h-8"
                 src="../../assets/img/vendor/gsap-greensock.svg"
                 alt="Greensock logo"
             /></a>
