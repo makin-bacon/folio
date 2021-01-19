@@ -1,26 +1,30 @@
 export default {
+  // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
+  ssr: false,
+
+  // Target (https://go.nuxtjs.dev/config-target)
+  target: "static",
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: "SCU Digital Producer and Designer",
+    title: "SCU Interview",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
     ],
-    // script: [
-    //   {
-    //     src: "~/assets/js/scripts.js",
-    //   },
-    // ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: ["assets/css/tailwind.css"],
+
+  purgeCSS: {
+    whitelist: ["dark-mode"],
+  },
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
-
-  // script: [{ src: "/assets/js/scripts" }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -33,12 +37,20 @@ export default {
     "@nuxtjs/tailwindcss",
     // https://nuxtjs.org/blog/going-dark-with-nuxtjs-color-mode/
     "@nuxtjs/color-mode",
-    // https://github.com/nuxt-community/fontawesome-module#readme
-    "@nuxtjs/fontawesome",
-    // https://github.com/nuxt-community/google-fonts-module
+    // Light and Dark Mode switcher
+    "@nuxtjs/color-mode",
+    // Google Fonts
     "@nuxtjs/google-fonts",
+    // GSAP Nuxt
     "nuxt-gsap-module",
   ],
+  // Add Fonts
+  googleFonts: {
+    families: {
+      "Work Sans": true,
+    },
+  },
+  // Activate extra GSAP
   gsap: {
     extraPlugins: {
       scrollTo: true,
@@ -48,45 +60,7 @@ export default {
       expoScaleEase: true,
     },
   },
-
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    // https://go.nuxtjs.dev/axios
-    "@nuxtjs/axios",
-  ],
-
-  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
-
-  // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
-
-  // https://storybook.nuxtjs.org
-  storybook: {
-    addons: [
-      "@storybook/addon-docs",
-      "@storybook/addon-notes",
-      "@storybook/addon-controls",
-    ],
-    parameters: {},
-  },
-
-  // https://color-mode.nuxtjs.org
-  colorMode: {
-    preference: "light", // default value of $colorMode.preference
-    fallback: "light", // fallback value if not system preference found
-    classSuffix: "",
-  },
-
-  googleFonts: {
-    families: {
-      "Work Sans": true,
-    },
-  },
-
-  // Add static target
-  target: "static",
-
+  // Activate page transitions
   // Add global page transition
   pageTransition: {
     name: "page",
@@ -117,4 +91,13 @@ export default {
       })
     },
   },
+
+  // Modules (https://go.nuxtjs.dev/config-modules)
+  modules: [
+    // https://go.nuxtjs.dev/axios
+    "@nuxtjs/axios",
+  ],
+
+  // Build Configuration (https://go.nuxtjs.dev/config-build)
+  build: {},
 }

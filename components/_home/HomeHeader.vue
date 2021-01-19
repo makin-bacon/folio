@@ -45,7 +45,7 @@
           </p>
         </div>
       </div>
-      <div class="w-16 h-16 px-4 ml-auto md:w-3/12">
+      <div class="w-16 h-16 px-4 ml-auto md:w-3/12 lg:w-2/12">
         <svg
           id="homeHeaderLogo"
           v-gsap.from="{

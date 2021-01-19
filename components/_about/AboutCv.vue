@@ -646,6 +646,12 @@
           <p class="mb-0 text-sm">Vue</p>
         </div>
         <!-- ./SOFTWARE BLOCK -->
+        <a
+          href="./TMillhouse_CV_2021.pdf"
+          class="inline-block mt-12 px-6 py-4 text-white bg-purple-700"
+          download=""
+          >Download a PDF</a
+        >
       </div>
     </div>
   </div>
