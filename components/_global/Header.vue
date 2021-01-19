@@ -3,13 +3,11 @@
     <div class="container flex items-center justify-between mt-0 nav-content">
       <a
         v-gsap.from="{
-          y: 50,
           duration: 2,
           opacity: 0,
           ease: 'power2',
         }"
         v-gsap.to="{
-          x: 0,
           duration: 2,
           opacity: 1,
           ease: 'power2',
@@ -33,13 +31,11 @@
       </a>
       <ul
         v-gsap.from="{
-          y: 50,
           duration: 2,
           opacity: 0,
           ease: 'power2',
         }"
         v-gsap.to="{
-          x: 0,
           duration: 2,
           opacity: 1,
           ease: 'power2',
