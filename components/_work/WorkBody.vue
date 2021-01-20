@@ -59,41 +59,21 @@
           In many ways this little website serves as a good summary of the type
           of work I do. This was built as HTML partials (i.e. little pieces) and
           the CSS was written using the
-          <a
-            class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
-            href="//tailwindcss.com"
-            target="_blank"
-            >Tailwind CSS</a
-          >
+          <a href="//tailwindcss.com" target="_blank">Tailwind CSS</a>
           framework. This was then ported into the
           <a
-            class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
+            class="transition-colors duration-300"
             href="//nuxtjs.org"
             target="_blank"
             >NuxtJS
           </a>
           framework so it could behave as a single page application. The
-          <a
-            class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
-            href="//greensock.com"
-            target="_blank"
-            >Greensock</a
-          >
+          <a href="//greensock.com" target="_blank">Greensock</a>
           javascript library was used for a little bit of movement between pages
           and finally it was all uploaded to
-          <a
-            class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
-            href="//github.com"
-            target="_blank"
-            >Github</a
-          >
+          <a href="//github.com" target="_blank">Github</a>
           and served as a static site through
-          <a
-            class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
-            href="//netlify.com"
-            target="_blank"
-            >Netlify</a
-          >.
+          <a href="//netlify.com" target="_blank">Netlify</a>.
         </p>
         <p
           v-gsap.from="{
@@ -109,15 +89,10 @@
             opacity: 1,
             ease: 'power2',
           }"
-          class="lg:mb-24"
+          class="mb-24 lg:mb-32"
         >
           All code was written on a mac and the headings were rendered in
-          <a
-            class="transition-colors duration-300 border-b border-purple-600 hover:text-purple-600 hover:border-purple-600"
-            href="//blender.org"
-            target="_blank"
-            >Blender</a
-          >
+          <a href="//blender.org" target="_blank">Blender</a>
           on a Windows 10 machine.
         </p>
 

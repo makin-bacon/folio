@@ -1,12 +1,17 @@
 module.exports = {
-  purge: [
-    "./components/**/*.{vue,js}",
-    "./components/**/**/*.{vue,js}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
-  ],
+  purge: {
+    content: [
+      "./components/**/*.{vue,js}",
+      "./components/**/***/*.{vue,js}",
+      "./layouts/**/*.vue",
+      "./pages/**/*.vue",
+      "./plugins/**/*.{js,ts}",
+      "./nuxt.config.{js,ts}",
+    ],
+    options: {
+      safelist: ['border-b'],
+    }
+  },
   theme: {
     extend: {
       colors: {
@@ -14,6 +19,8 @@ module.exports = {
         current: "currentColor",
 
         white: "#fff",
+        black: "#000",
+
 
         gray: {
           100: "#f7fafc",
@@ -652,5 +659,5 @@ module.exports = {
     transitionDuration: ["responsive"],
     transitionDelay: ["responsive"],
   },
-  plugins: [require("tailwindcss-dark-mode")()],
+  plugins: [],
 }

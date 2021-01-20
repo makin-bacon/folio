@@ -563,7 +563,7 @@
           <p class="mb-0 text-sm">
             <span class="font-bold">Email</span>
             <a
-              class="text-purple-700 transition-all duration-300 hover:text-purple-900"
+              class="text-purple-700 transition-all duration-300 border-b border-purple-900 hover:text-purple-900"
               href="mailto:tim.millhouse@gmail.com"
               >tim.millhouse@gmail.com</a
             >

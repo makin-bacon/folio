@@ -17,7 +17,7 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ["assets/css/tailwind.css"],
+  css: ["~/assets/css/tailwind.css"],
 
   purgeCSS: {
     whitelist: ["dark-mode"],
@@ -97,5 +97,22 @@ export default {
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    postcss: {
+      // Add plugin names as key and arguments as value
+      // Install them before as dependencies with npm or yarn
+      plugins: {
+        // Disable a plugin by passing false as value
+        'postcss-import': {},
+        'tailwindcss': {},
+        'autoprefixer': {}
+      },
+      preset: {
+        // Change the postcss-preset-env settings
+        autoprefixer: {
+          grid: true
+        }
+      }
+    }
+  }
 }

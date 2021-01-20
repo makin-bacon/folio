@@ -1,5 +1,5 @@
 <template>
-  <div class="px-0 md:pl-12 md:w-6/12">
+  <div class="px-0 md:pl-12 md:w-6/12 min-h-3/4">
     <div class="block w-full">
       <!-- <h3
         v-gsap.from="{
