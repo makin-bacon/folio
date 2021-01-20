@@ -8,9 +8,7 @@ module.exports = {
       "./plugins/**/*.{js,ts}",
       "./nuxt.config.{js,ts}",
     ],
-    options: {
-      safelist: ['border-b'],
-    }
+    options: {},
   },
   theme: {
     extend: {
@@ -20,7 +18,6 @@ module.exports = {
 
         white: "#fff",
         black: "#000",
-
 
         gray: {
           100: "#f7fafc",
@@ -43,17 +40,6 @@ module.exports = {
           700: "#6b46c1",
           800: "#553c9a",
           900: "#44337a",
-        },
-        black: {
-          100: "#d4cccc",
-          200: "#a89999",
-          300: "#7d6767",
-          400: "#513434",
-          500: "#260101",
-          600: "#1e0101",
-          700: "#170101",
-          800: "#0f0000",
-          900: "#000000",
         },
       },
       spacing: {

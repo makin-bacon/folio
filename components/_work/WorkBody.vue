@@ -1,7 +1,7 @@
 <template>
   <div class="container flex flex-col">
     <div class="flex md:flex">
-      <div class="mb-16 w-12/12">
+      <div class="mb-16 w-12/12 lg:w-8/12 lg:mr-auto">
         <!-- <h2
           v-gsap.from="{
             y: -50,
@@ -34,7 +34,6 @@
             opacity: 1,
             ease: 'power2',
           }"
-          class="lg:mt-12"
         >
           While I've worked in the design industry for nearly 20 years, I've
           spent the last two years at Southern Cross University so have a
@@ -89,52 +88,41 @@
             opacity: 1,
             ease: 'power2',
           }"
-          class="mb-24 lg:mb-32"
         >
           All code was written on a mac and the headings were rendered in
           <a href="//blender.org" target="_blank">Blender</a>
           on a Windows 10 machine.
         </p>
-
-        <h3
-          v-gsap.from="{
-            x: -50,
-            duration: 3,
-            opacity: 0,
-            ease: 'power2',
-            stagger: 0.5,
-          }"
-          v-gsap.to="{
-            x: 0,
-            duration: 3,
-            opacity: 1,
-            ease: 'power2',
-          }"
-          class="mt-8 mb-0 text-2xl"
-        >
-          Digital
-        </h3>
       </div>
     </div>
-    <hr
+    <hr class="mb-16 border-gray-200" />
+
+    <h3
       v-gsap.from="{
-        duration: 0.5,
+        x: -50,
+        duration: 3,
         opacity: 0,
         ease: 'power2',
         stagger: 0.5,
       }"
       v-gsap.to="{
-        duration: 0.5,
+        x: 0,
+        duration: 3,
         opacity: 1,
         ease: 'power2',
       }"
-      class="mb-16 border-b border-gray-400"
-    />
+      class="mt-8 mb-16 text-2xl"
+    >
+      Digital
+    </h3>
+
     <WorkImageBlock0></WorkImageBlock0>
     <WorkImageBlock1></WorkImageBlock1>
     <WorkImageBlock2></WorkImageBlock2>
     <WorkImageBlock3></WorkImageBlock3>
     <WorkImageBlock4></WorkImageBlock4>
+    <hr class="mb-16 border-gray-200" />
+
     <h3
       v-gsap.from="{
         x: -50,
@@ -153,20 +141,7 @@
     >
       Print
     </h3>
-    <hr
-      v-gsap.from="{
-        duration: 0.5,
-        opacity: 0,
-        ease: 'power2',
-        stagger: 0.5,
-      }"
-      v-gsap.to="{
-        duration: 0.5,
-        opacity: 1,
-        ease: 'power2',
-      }"
-      class="mb-16 border-b border-gray-400"
-    />
+
     <WorkImageBlock5></WorkImageBlock5>
     <WorkImageBlock6></WorkImageBlock6>
     <WorkImageBlock7></WorkImageBlock7>

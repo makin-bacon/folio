@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto">
-    <WorkHeader></WorkHeader>
+    <div class="lg:w-8/12 lg:mr-auto">
+      <WorkHeader></WorkHeader>
+    </div>
     <WorkBody></WorkBody>
   </div>
 </template>

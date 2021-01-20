@@ -18,8 +18,33 @@
     >
       About me
     </h2> -->
+    <div class="w-12/12 lg:w-8/12 lg:mr-auto">
+      <p
+        v-gsap.from="{
+          y: 50,
+          duration: 3,
+          opacity: 0,
+          ease: 'power2',
+          stagger: 0.5,
+        }"
+        v-gsap.to="{
+          y: 0,
+          duration: 3,
+          opacity: 1,
+          ease: 'power2',
+        }"
+      >
+        I've worked in agencies and as a freelancer on the East Coast of
+        Australia for nearly 20 years. I live in Lennox Head, New South Wales
+        with my wife, two kids and dog, Gravy. When I'm not doing digital work I
+        like camping, gardening and playing guitar (badly). See below for a
+        brief work history.
+      </p>
+    </div>
+    <!-- SKILL CATEGORY -->
+    <hr class="my-16 border-gray-200" />
 
-    <div class="flex flex-col mt-12 mb-24 md:flex-row">
+    <div class="flex flex-col mb-24 md:flex-row">
       <!-- WORK COL -->
       <div
         v-gsap.from="{
@@ -544,7 +569,7 @@
               opacity: 1,
               ease: 'power2',
             }"
-            class="pt-10 mt-5 mb-4 text-xl"
+            class="mt-5 mb-4 text-xl lg:mt-0"
           >
             Contact
           </h2>
@@ -554,23 +579,15 @@
           </p>
           <p class="mb-1 text-sm">
             <span class="font-bold">Mobile</span>
-            <a
-              class="text-purple-700 transition-all duration-300 hover:text-purple-900"
-              href="tel:61429174298"
-              >0429 174 298</a
-            >
+            <a href="tel:61429174298">0429 174 298</a>
           </p>
           <p class="mb-0 text-sm">
             <span class="font-bold">Email</span>
-            <a
-              class="text-purple-700 transition-all duration-300 border-b border-purple-900 hover:text-purple-900"
-              href="mailto:tim.millhouse@gmail.com"
-              >tim.millhouse@gmail.com</a
-            >
+            <a href="mailto:tim.millhouse@gmail.com">tim.millhouse@gmail.com</a>
           </p>
         </div>
         <!-- ./CONTACT BLOCK -->
-        <hr class="my-12 border-gray-400" />
+        <hr class="my-12 border-gray-200" />
         <!-- QUALIFICATIONS BLOCK -->
         <div>
           <h2
@@ -602,7 +619,7 @@
           <p class="text-sm">Canberra Grammar School (1997)</p>
         </div>
         <!-- ./QUALIFICATIONS BLOCK -->
-        <hr class="my-12 border-gray-400" />
+        <hr class="my-12 border-gray-200" />
         <!-- SOFTWARE BLOCK -->
         <div>
           <h2

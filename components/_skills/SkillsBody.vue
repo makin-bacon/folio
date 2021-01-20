@@ -1,6 +1,6 @@
 <template>
   <div class="container pt-12 pb-12 mx-auto text-white min-h-96 lg:pb-24">
-    <div class="mb-16 md:mb-24 w-12/12">
+    <div class="mb-16 md:mb-24 w-12/12 lg:w-8/12 lg:mr-auto">
       <!-- <h2 class="text-2xl lg:text-3xl lg:mt-12 w-12/12">
         Web, motion and print
       </h2> -->
@@ -27,6 +27,7 @@
       </p>
     </div>
     <!-- SKILL CATEGORY -->
+    <hr class="my-16 border-gray-900" />
     <div
       v-gsap.from="{
         x: 50,
