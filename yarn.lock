@@ -6606,10 +6606,10 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt-gsap-module@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/nuxt-gsap-module/-/nuxt-gsap-module-1.1.1.tgz#5cf7d28383383c65264e75f91b465d66526cd55d"
-  integrity sha512-YuBUyKJeu3csnTa3rha7CCxhwWEzrc6Pmr8jqde5cRBrpceYdItERNVJFyQqM/uU2tEedZIMixBZu0DlJ/05lw==
+nuxt-gsap-module@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/nuxt-gsap-module/-/nuxt-gsap-module-1.2.0.tgz#c0e83ae2d575e6c524198c118053113563cb9d69"
+  integrity sha512-vk44l95Q7T+NK/bj/lrpRItSRsT5Mb3WY7jYidvXfSffNWT43oyidVGR+kru0T1eWLQB8MU6vPnyFrvFQhl7xw==
   dependencies:
     gsap "^3.6.0"
 
