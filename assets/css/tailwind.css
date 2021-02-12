@@ -65,11 +65,11 @@ p > a:hover {
 }
 
 .nuxt-link-active {
-  @apply text-gray-900;
+  @apply text-purple-900;
 }
 
 .nuxt-link-exact-active {
-  @apply text-purple-700;
+  @apply text-gray-900;
 }
 
 h1,
