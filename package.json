@@ -30,7 +30,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.4.1",
     "nuxt-gsap-module": "^1.1.1",
-    "postcss": "^7",
+    "postcss": "^8",
     "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "tailwindcss-dark-mode": "^1.1.7",
